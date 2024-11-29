@@ -1,0 +1,11 @@
+{
+  "/page": "/",
+  "/favicon.ico/route": "/favicon.ico",
+  "/dashboard/page": "/dashboard",
+  "/addmore/page": "/addmore",
+  "/add-user/page": "/add-user",
+  "/profile/page": "/profile",
+  "/users/page": "/users",
+  "/dashboard/[dashboard]/page": "/dashboard/[dashboard]",
+  "/users/[user]/page": "/users/[user]"
+}
