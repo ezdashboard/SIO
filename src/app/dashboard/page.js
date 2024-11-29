@@ -524,7 +524,7 @@ const Dashboard=()=>{
                                         </select>
                                       </div>
                                     </div>
-                                    <div className='col-md-2'>
+                                    <div className='col-md-3'>
                                       <div className='form-group'>
                                          <level>Industry</level>
                                          <select name="industry"  onChange={inputSearchData} className='form-control'>
@@ -537,7 +537,7 @@ const Dashboard=()=>{
                                          </select>   
                                       </div>
                                     </div>
-                                    <div className='col-md-2'>
+                                    <div className='col-md-3'>
                                       <div className='form-group'>
                                          <level>Country</level>
                                          <select name="country"  onChange={inputSearchData} className='form-control'>
@@ -552,7 +552,7 @@ const Dashboard=()=>{
                                          </select>   
                                       </div>
                                     </div>
-                                   <div className='col-md-2'>
+                                   <div className='col-md-2 d-none'>
                                       <div className='form-group'>
                                          <level>Follow</level>
                                          <select name="follow"  onChange={inputSearchData} className='form-control'>
@@ -614,7 +614,7 @@ const Dashboard=()=>{
                                     <th width="5%">DA</th>
                                     <th width="5%">Spam Score</th>
                                     <th width="20%">Live Links</th>
-                                    <th width="10%">Follow</th>
+                                    <th width="10%">Robots</th>
                                    
                                     {   userType && userType=='admin' &&
                                      <>

@@ -30,7 +30,7 @@ return(
                     <Link href="/dashboard"><img className='logo__white' src="/assets/images/logo1.webp" alt=""/></Link>
                     </span>
                     <span>
-                    <Link href="/dashboard"><img className='log__smnall' src="/assets/images/logo.webp" alt=""/></Link>
+                    <Link href="/dashboard"><img className='log__smnall' src="/assets/images/sio-logo-n1.png" alt=""/></Link>
                     </span>
                 </div>
                 <div className="sidebar__inner simple-bar">
@@ -46,7 +46,7 @@ return(
                         <Link href="#"><FontAwesomeIcon icon={faArrowRightFromBracket} /><span className="links_name">Log out</span></Link>
                     </div>
                     <div className="sidebar__copyright">
-                    <p> © {currentYear} EZ Rankings Pvt. Ltd. <br />All Rights Reserved.</p>
+                    <p> © {currentYear} SEO INDIA ONLINE Pvt. Ltd. <br />All Rights Reserved.</p>
                     </div>
                     </div>
                 </div>

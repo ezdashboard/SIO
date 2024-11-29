@@ -1091,6 +1091,7 @@ body {
   position: absolute;
   left: 42%;
   top: 50%;
+  height: 100px;
   transform: translate(-50%, -50%);
 }
 .expovent__sidebar .logo__white {

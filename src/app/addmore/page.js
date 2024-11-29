@@ -355,12 +355,8 @@ const Addmore=()=>{
                                   
                                    <div className='col-md-6'>
                                       <div className='form-group'>
-                                         <level>Follow</level>
-                                         <select name="follow"  onChange={inputChangeData} >
-                                            <option value="">Select</option>
-                                            <option value="Dofollow">Dofollow</option>
-                                            <option value="Nofollow">Nofollow</option>
-                                         </select>
+                                         <level>Robots</level>
+                                            <input type='text' placeholder='Robots' name="follow" onChange={inputChangeData} value={inputData.follow}/>
                                       </div>
                                    </div>
                                    <div className='col-md-6'>
