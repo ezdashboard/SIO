@@ -11,8 +11,8 @@ const roboto = Roboto({
 })
 
 export const metadata = {
-  title: 'Login Email',
-  description: 'Login Email',
+  title: 'SIO Tool Email',
+  description: 'Login SIO Tool',
 }
 
 export default function RootLayout({ children }) {
