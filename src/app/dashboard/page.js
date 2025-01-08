@@ -284,9 +284,13 @@ const Dashboard=()=>{
             try {
               let apiDash = '';
               if(type && type=='search' ){
-                apiDash = `${process.env.API_BASE_URL}leads.php?limit=${limitp}&activity=${searData.activity}&industry=${searData.industry}&follow=${searData.follow}&sort=${searData.sorting}&country=${searData.country}`;
+                setCurrentPage(1)
+
+                apiDash = `${process.env.API_BASE_URL}leads.php?page=1&limit=${limitp}&activity=${searData.activity}&industry=${searData.industry}&follow=${searData.follow}&sort=${searData.sorting}&country=${searData.country}`;
               }else{
-                apiDash = `${process.env.API_BASE_URL}leads.php?page=${currentPage}&limit=${limitp}`;
+                // apiDash = `${process.env.API_BASE_URL}leads.php?page=${currentPage}&limit=${limitp}`;
+                apiDash = `${process.env.API_BASE_URL}leads.php?page=${currentPage}&limit=${limitp}&activity=${searData.activity}&industry=${searData.industry}&follow=${searData.follow}&sort=${searData.sorting}&country=${searData.country}`;
+
               }
                 const config = {
                     headers: {
@@ -582,8 +586,8 @@ const Dashboard=()=>{
                                               <option value="4">DA By Desc</option>
                                               <option value="5">Scam Score By Asc</option>
                                               <option value="6">Scam Score By Desc</option>
-                                              <option value="7">Follow By Asc</option>
-                                              <option value="8">Follow By Desc</option>
+                                              {/* <option value="7">Follow By Asc</option>
+                                              <option value="8">Follow By Desc</option> */}
                                           </select>
                                         </div>
                                   </div>
