@@ -593,7 +593,7 @@ const Dashboard=()=>{
                                   </div>
                                   <div className='col-md-3'>
                                     <div className='form-group two-btn' style={{marginTop:'20px'}}>
-                                        <button type="button" onClick={()=>getLeadsData('search')} className='btn btn-primary'>Sorting</button>
+                                        <button type="button" onClick={()=>getLeadsData('search')} className='btn btn-primary'>Sort</button>
                                     </div>
                                   </div>
                                 </div>
