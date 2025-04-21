@@ -301,6 +301,11 @@ const Dashboard=()=>{
 
             axios.get(apiDash, config)
             .then(res => {
+                if(res && res.data && res.data.error && res.data.error =='Token Expired.'){
+                  alert('User account login another user so please again.');
+                  localStorage.clear();
+                  router.push("/")
+                }
                 if(res && res.data && res.data.leadRecordsData && res.data.leadRecordsData.length > 0){
                 const data = res.data.leadRecordsData.map((item) => {
                   return {
